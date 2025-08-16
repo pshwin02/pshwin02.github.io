@@ -7,12 +7,13 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- NAV -->
   <div class="nav-wrap">
     <nav class="nav">
       <div class="brand">
-        <span>공돌이의 경제이야기</span>
+        <a href="index.html">공돌이의 경제이야기</a>
         <span class="divider">|</span>
-        <span class="sub">꽁스주식</span>
+        <a class="sub" href="stocks.html">꽁스주식</a>
       </div>
       <div class="menu">
         <a class="active" href="stocks.html">주식</a>
@@ -23,15 +24,36 @@
     </nav>
   </div>
 
+  <!-- PAGE HERO -->
   <header class="page-hero">
     <div class="container">
       <h1>주식</h1>
-      <p>기업 개요 → 재무현황 → 주요 뉴스/이슈 → 공돌이 기법(썸하트·보석·세력선·슈팅선) 순서로 정리</p>
+      <p>기업 개요 → 재무현황 → 주요 뉴스/이슈 → 공돌이 기법(썸하트·보석·세력선·슈팅선 등) 순서로 정리</p>
     </div>
   </header>
 
   <main class="container" style="padding:32px 16px">
-    <!-- 최신 종목 분석 -->
+    <!-- 대표 차트 신호 (제목 위주, 가격 미표기) -->
+    <section style="padding:0 0 28px">
+      <h2 style="margin:0 0 14px; font-size:22px; font-weight:900">대표 차트 신호</h2>
+      <div class="grid">
+        <article class="card"><h3>썸 · 썸2 · 하트 · 보석</h3><p>저점 흡수·반전 패턴군 핵심 신호.</p></article>
+        <article class="card"><h3>세력선</h3><p>세력 매집/이탈 흐름 가시화.</p></article>
+        <article class="card"><h3>슈팅선</h3><p>강한 모멘텀 분출 구간 식별.</p></article>
+        <article class="card"><h3>꽁돌 점선</h3><p>지지·저항 변곡 포인트 보조선.</p></article>
+        <article class="card"><h3>모멘텀 5라인</h3><p>다중 모멘텀 밴드 기반 추세 필터.</p></article>
+        <article class="card"><h3>모멘텀 강세신호</h3><p>상승 우위 교차 시그널.</p></article>
+        <article class="card"><h3>2볼밴 세트</h3><p>상단 돌파 추종 · 하단 반등 공략.</p></article>
+        <article class="card"><h3>핑크존 차트</h3><p>핵심 수렴대 돌파/이탈 구간.</p></article>
+        <article class="card"><h3>슈퍼트랜드 1·2</h3><p>추세 전환/지속의 이중 확인.</p></article>
+        <article class="card"><h3>별나라 캔들 + 손절선</h3><p>특수 캔들 조합과 리스크 컷.</p></article>
+        <article class="card"><h3>낙폭 구름대</h3><p>과매도 회복 흐름 구간화.</p></article>
+        <article class="card"><h3>웨이브 트랜드</h3><p>파동 모멘텀 회복 타이밍.</p></article>
+        <article class="card"><h3>매집 1·2 신호</h3><p>바닥 매집/분출 전개 감지.</p></article>
+      </div>
+    </section>
+
+    <!-- 최신 종목 분석(샘플) -->
     <section style="padding:0 0 24px">
       <h2 style="margin:0 0 14px; font-size:22px; font-weight:900">최신 종목 분석</h2>
       <div class="grid">
@@ -53,7 +75,6 @@
       </div>
     </section>
 
-    <!-- 섹션들 -->
     <div class="grid">
       <article class="card">
         <h3>관심 종목 리스트</h3>
