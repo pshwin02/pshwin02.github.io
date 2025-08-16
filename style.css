@@ -13,6 +13,8 @@ body{margin:0; font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto
 .brand{display:flex; align-items:center; gap:8px; font-weight:800; letter-spacing:.2px}
 .brand .divider{opacity:.5; font-weight:600}
 .brand .sub{font-weight:800; opacity:.9}
+.brand a{color:#e5e7eb; text-decoration:none}
+.brand a:hover{opacity:.85}
 .menu{margin-left:auto; display:flex; gap:8px; flex-wrap:wrap}
 .menu a{color:#e5e7eb; text-decoration:none; padding:10px 14px; border-radius:12px; font-weight:600; font-size:15px; transition:.2s}
 .menu a:hover{background:rgba(255,255,255,.12)}
